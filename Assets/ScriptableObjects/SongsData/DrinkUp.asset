@@ -10,7 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5fb2e8922bb60bb48874e03aa360137c, type: 3}
-  m_Name: They Might Be Giants
+  m_Name: DrinkUp
   m_EditorClassIdentifier: Assembly-CSharp::SongData
-  songName: They Might Be Giants
-  animationName: Rumba Dancing
+  songName: DrinkUp
+  animationName: BreakDance
+  notesConfig: {fileID: 4900000, guid: 880f4f79e1f047240a77de87ba0dcc9e, type: 3}
+  speed: 400
