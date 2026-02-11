@@ -26,6 +26,32 @@ AnimatorState:
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
+--- !u!1102 &-3796994556288206024
+AnimatorState:
+  serializedVersion: 6
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: BreakDance
+  m_Speed: 1
+  m_CycleOffset: 0
+  m_Transitions: []
+  m_StateMachineBehaviours: []
+  m_Position: {x: 50, y: 50, z: 0}
+  m_IKOnFeet: 0
+  m_WriteDefaultValues: 1
+  m_Mirror: 0
+  m_SpeedParameterActive: 0
+  m_MirrorParameterActive: 0
+  m_CycleOffsetParameterActive: 0
+  m_TimeParameterActive: 0
+  m_Motion: {fileID: -203655887218126122, guid: b2751f4734405b94992074a04a46ad99, type: 3}
+  m_Tag: 
+  m_SpeedParameter: 
+  m_MirrorParameter: 
+  m_CycleOffsetParameter: 
+  m_TimeParameter: 
 --- !u!1102 &-1021114764860113284
 AnimatorState:
   serializedVersion: 6
@@ -165,9 +191,6 @@ AnimatorStateMachine:
     m_State: {fileID: -909218887337228583}
     m_Position: {x: 270, y: 60, z: 0}
   - serializedVersion: 1
-    m_State: {fileID: 2411485870241503065}
-    m_Position: {x: 270, y: 10, z: 0}
-  - serializedVersion: 1
     m_State: {fileID: -542819450292171205}
     m_Position: {x: 270, y: 110, z: 0}
   - serializedVersion: 1
@@ -185,6 +208,12 @@ AnimatorStateMachine:
   - serializedVersion: 1
     m_State: {fileID: -817147177585639728}
     m_Position: {x: 270, y: 210, z: 0}
+  - serializedVersion: 1
+    m_State: {fileID: -3796994556288206024}
+    m_Position: {x: 270, y: 10, z: 0}
+  - serializedVersion: 1
+    m_State: {fileID: 4165340001296466060}
+    m_Position: {x: 270, y: -90, z: 0}
   m_ChildStateMachines: []
   m_AnyStateTransitions: []
   m_EntryTransitions: []
@@ -195,14 +224,14 @@ AnimatorStateMachine:
   m_ExitPosition: {x: 800, y: 120, z: 0}
   m_ParentStateMachinePosition: {x: 800, y: 20, z: 0}
   m_DefaultState: {fileID: -542819450292171205}
---- !u!1102 &2411485870241503065
+--- !u!1102 &4165340001296466060
 AnimatorState:
   serializedVersion: 6
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Breakdance Dancing
+  m_Name: CheeringDance
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions: []
@@ -215,7 +244,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: -203655887218126122, guid: b2751f4734405b94992074a04a46ad99, type: 3}
+  m_Motion: {fileID: -203655887218126122, guid: 830c241d1a5aef340b7e878353f7ff9d, type: 3}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
