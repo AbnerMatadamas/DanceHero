@@ -17,6 +17,6 @@ public class Note : MonoBehaviour
         {
             rb = GetComponent<Rigidbody2D>();
         }
-        rb.velocity = Vector3.down * speed;
+        rb.linearVelocity = Vector3.down * speed;
     }
 }
